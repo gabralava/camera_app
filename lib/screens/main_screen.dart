@@ -2,10 +2,10 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:camera/camera.dart';
-import 'package:camera_app/presentation/display_picture_screen.dart';
-import 'package:camera_app/presentation/error_screen.dart';
-import 'package:camera_app/presentation/location_finder.dart';
-import 'package:camera_app/presentation/request_server.dart';
+import 'package:camera_app/screens/display_picture_screen.dart';
+import 'package:camera_app/screens/error_screen.dart';
+import 'package:camera_app/services/location_finder.dart';
+import 'package:camera_app/services/request_server.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 

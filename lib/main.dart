@@ -1,5 +1,5 @@
 import 'package:camera/camera.dart';
-import 'package:camera_app/presentation/main_screen.dart';
+import 'package:camera_app/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 
 Future<void> main() async {
